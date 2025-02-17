@@ -1,5 +1,5 @@
 import pytest
-from mathfuncs import addnums
+from mypackage.mathfuncs import addnums
 
 def test_add():
     assert addnums(1,2) == 3
